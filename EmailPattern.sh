@@ -15,7 +15,7 @@ checkPattern () {
 
 emailPatternMain () {
 	askUserInput;
-	pattern=^[a-zA-Z]{1}[a-zA-Z0-9]*$; #VALIDATING EMAIL GROUP 1. 
+	pattern=^[a-zA-Z]{1}[a-zA-Z0-9]*[@]{1}[a-zA-Z0-9]*$; #VALIDATION EMAIL GROUP 2 WITH @
 	checkPattern;
 }
 
